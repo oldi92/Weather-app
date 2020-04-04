@@ -1,0 +1,18 @@
+.Forecast24 {
+    width: 95%;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+.Forecast24 ul {
+    width: 100%;
+    display: flex;
+    padding-left: 0;
+    margin-top: -20px;
+}
+.Forecast24 li {
+    padding: 6px;
+}
+.Forecast24 li :last-child {
+    width: 45px;
+}
