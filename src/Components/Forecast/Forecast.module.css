@@ -1,7 +1,7 @@
 .Forecast {
     margin-top: 20px;
     background-color: rgba(255, 255, 255, 0.2);
-    width: 95%;
+    width: 90%;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     transition: 5s ease-out;

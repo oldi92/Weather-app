@@ -9,18 +9,40 @@ import {Transition} from 'react-transition-group'
 class Forecast extends Component  {
 
     state = {
-        forecastToggle : false
+        forecastToggle : false,
+        scrollposistion: null
     }
 
     componentDidMount() {
             console.log('FORECAST ' ,this.props.longitude, this.props.latitude);  
-            this.props.onForcastFetch(this.props.longitude, this.props.latitude)                  
+            this.props.onForcastFetch(this.props.longitude, this.props.latitude)  
+            window.scrollTo({
+                top: 765,
+                left: 0,
+                behavior:"smooth"
+            }) 
+            console.log('trigreted compotenet did mount');
+            
+                            
     }
 
     forecastToggle= () =>{
         this.setState({ forecastToggle : !this.state.forecastToggle})
+        console.log('FIRST FUNCTION ON CLICK');
+        setTimeout( () => this.scrollHandler() ,500)
+        
     }
-
+    scrollHandler(){
+        window.scrollTo({
+            top: 765,
+            left: 0,
+            behavior:"smooth"
+        })  
+        
+        
+        
+    }
+    
         render() {
             
             let forecast24 = null;
@@ -42,18 +64,23 @@ class Forecast extends Component  {
                                weatherDescription={weatherDescription}
                                weatherIcon={weatherIcon} />
                       
-                })                
+                }) 
+                
+                
             }
+            
 
         let btnClass = !this.state.forecastToggle ? classes.second : classes.remove
         let btnClassFirst =!this.state.forecastToggle ? classes.first : classes.firstAlone
         return (            
                 <div >
+                    
                     <h2 className={classes.Title}>Forecast Daily  
                     <button className={classes.Parent} onClick={this.forecastToggle}>
                          <div className={btnClassFirst}></div>
                          <div className={btnClass}></div>
-                    </button>   
+                    </button> 
+                    <div ref={this.myRef}></div>   
                     </h2> 
                     
                     
