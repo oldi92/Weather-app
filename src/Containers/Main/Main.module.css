@@ -57,3 +57,36 @@
     padding: 20px 0px;
     transition: 0.3s ease-out;
 }
+
+@media screen and (max-width: 413px ) {
+    .Title{
+        margin-right: 55px;
+    }
+}
+
+@media screen and (min-width: 527px ) {
+    .Title{
+        margin-right: 55px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 700px ) {
+    .Main{
+        background-image: url('../../assets//background//sun1.jpg');
+    }
+}
+@media screen and (min-width: 1000px ) {
+    .Main{
+        padding-left: 5%;
+    }
+}
+@media screen and (min-width: 1440px ) {
+    .Title{
+        font-size: 50px;
+        margin-right: 61%;
+        margin-bottom: 90px;
+        margin-top: 8%;
+    }
+
+}

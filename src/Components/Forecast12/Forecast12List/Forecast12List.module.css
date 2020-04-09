@@ -16,3 +16,25 @@
 .Forecast24 li :last-child {
     width: 45px;
 }
+
+@media screen and (max-width: 413px ) {
+    .Forecast24 li {
+        padding: 3px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 527px ) {
+    .Forecast24 li{
+        padding: 3%;
+        font-size: 25px;
+    }    
+}
+@media screen and (min-width: 1300px ) {
+    .Forecast24 li{
+        font-size: 25px;
+        padding-right: 60px;
+    } 
+    .Forecast24 {
+        padding-left: 13%;
+    }   
+}

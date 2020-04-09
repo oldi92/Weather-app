@@ -66,3 +66,9 @@
 .remove{
     display: none;
 }
+
+@media screen and (max-width: 413px ) {
+    .Forecast {
+        padding-left: 5px;
+    }
+}

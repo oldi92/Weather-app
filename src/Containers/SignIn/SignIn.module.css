@@ -89,3 +89,58 @@
     padding-left: 3px;
     text-align: left;
 }
+
+@media screen and (max-width: 413px ) {
+    .Form  {
+        width: 93%;
+        padding: 0;
+        padding-top: 15px;
+    }
+    .Form form {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 527px ) {
+    .Settings{
+        padding-left: 8%;
+    }
+    .Form  {
+        width: 75%;
+        padding: 50px;
+
+    }
+    .Form form {
+        width: 85%;
+        padding: 15px;
+    }
+    .Form form input {
+        width: 100%;
+        font-size: 24px;
+    }
+    .Form button {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (min-width: 700px ) {
+    .Settings{
+        background-image: url('../../assets//background//sun1.jpg');
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .Settings{
+        padding-left: 20%;
+    }
+    .Form  {
+        margin-top: 15%;
+        width: 75%;
+        padding: 60px;
+    }
+    .Form h2{
+        margin-left: -13%;
+    }
+}

@@ -47,3 +47,22 @@
 .CelciusButton button:hover h2{
     color: rgba(0, 0, 0, 0.7);
 }
+
+
+@media screen and (max-width: 413px ) {
+    .Settings{
+        height: 120vh;
+    }    
+}
+@media screen and (min-width: 527px ) {
+    .Settings{
+        padding-left: 8%;
+    }    
+}
+
+@media screen and (min-width: 700px ) {
+    .Settings{
+        background-image: url('../../assets//background//sun1.jpg');
+    }
+}
+

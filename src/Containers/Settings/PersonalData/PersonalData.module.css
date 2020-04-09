@@ -85,3 +85,80 @@
 .PersonalData form label{
     font-size: 15px;
 }
+
+@media screen and (min-width: 527px ) {
+    .PersonalInfo{
+        width:75%;
+        font-size: 20px;
+        padding: 0 25px 0 25px;
+    }
+    .PersonalInfo button{
+        font-size: 20px;
+    }
+    .PersonalInfo ul li h3 {
+        font-size: 23px;
+    }
+    .PersonalInfo ul li h2 {
+        margin-top: -15px;
+    }
+    .PersonalInfo ul li{
+        margin-left: 8%;
+        padding-bottom: 25px;
+    }
+    .PersonalData{
+        width: 75%;
+        padding: 30px;
+    }
+    .PersonalData form label {
+        font-size: 20px;
+    }
+    .PersonalData form input {
+        font-size: 25px;
+    }
+    .PersonalData form button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 700px ) {
+    .Settings{
+        background-image: url('../../../assets/background/sun1.jpg');
+    }
+}
+
+@media screen and (min-width: 1400px ) {
+    .PersonalInfo{
+        width:80%;
+        font-size: 20px;
+        padding: 0;
+        margin-top: 0;
+    }
+    .PersonalInfo button{
+        font-size: 30px;
+    }
+    .PersonalInfo ul li h3 {
+        font-size: 30px;
+    }
+    .PersonalInfo ul li h2 {
+        margin-top: -15px;
+        font-size: 40px;
+    }
+    .PersonalInfo ul li{
+        margin-left: 13%;
+        padding-bottom: 50px;
+    }
+    .PersonalData{
+        margin-left: 5%;
+        width: 65%;
+        padding: 3% 5% 3% 5%;
+    }
+    .PersonalData form label {
+        font-size: 20px;
+    }
+    .PersonalData form input {
+        font-size: 25px;
+    }
+    .PersonalData form button {
+        font-size: 20px;
+    }
+}
