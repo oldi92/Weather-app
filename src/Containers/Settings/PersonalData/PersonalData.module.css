@@ -1,0 +1,87 @@
+.PersonalInfo{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.PersonalInfo button {
+    background-color: rgba(0, 0, 204, 0.6);
+    padding: 5px;
+    color: white;
+    border: none;
+    background-color: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 50%;
+    margin-top: 34px;
+}
+.PersonalInfo button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 204, 0.8);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.45);
+}
+.PersonalInfo ul {
+    list-style: none;
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+}
+.PersonalInfo ul li{
+    height: 86px;
+    padding-top: 10px;
+}
+.PersonalInfo ul h3 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.PersonalData{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+.PersonalData form{
+    display: flex;
+    flex-flow: column;
+    padding: 30px;
+    text-align: left;
+}
+.PersonalData button {
+    background-color: rgba(0, 0, 204, 0.6);
+    padding: 5px;
+    color: white;
+    border: none;
+    background-color: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 50%;
+    margin-top: 14px;
+}
+.PersonalData button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 204, 0.8);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.45);
+}
+.PersonalData form input{
+    background-color: rgba(255, 255, 255, 0);
+    width: 95%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.6);
+    margin-bottom: 45px;
+}
+.PersonalData form input:hover{
+    border-bottom: solid 2px rgba(0, 0, 204, 0.5);
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,0.4);
+}
+.PersonalData form input:focus{
+    border: none;
+    border-bottom: solid 2px rgba(0, 0, 204, 0.5);
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,0.4);
+}
+.PersonalData form label{
+    font-size: 15px;
+}

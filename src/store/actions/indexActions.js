@@ -1,1 +1,2 @@
-export {geolocation, currentWeather, forecastFetch } from './mainAction' 
+export {geolocation, currentWeather, forecastFetch, forecast5Fetch, signInAuth, signUpAuth, calsius,personalDataToggle,  personalDataReset, personalDataEditFetch, personalInfoFetch, personalDataLoaded,
+setLocalIdIdtoken } from './mainAction' 

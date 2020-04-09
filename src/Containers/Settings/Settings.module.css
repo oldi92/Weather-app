@@ -1,0 +1,49 @@
+.Settings{
+    background-image: url('../../assets//background//sun.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+.BackButton {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 70%;
+    margin-top: 40px;
+    transition: all 0.3s ease-out;
+}
+.BackButton:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+}
+.CelciusButton{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    height: 60px;
+    padding: 5px 5px 0px 5px;
+    margin-bottom: 35px;
+}
+.CelciusButton button {
+    background-color: rgba(0, 0, 0, 0.8);
+    border:  rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 55%;
+    height: 55px;
+    padding: 0;
+}
+.CelciusButton button h2{
+    color: rgba(255, 255, 255, 0.7);
+}
+.CelciusButton button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.CelciusButton button:hover h2{
+    color: rgba(0, 0, 0, 0.7);
+}

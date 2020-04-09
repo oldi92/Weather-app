@@ -1,0 +1,91 @@
+.Settings{
+    background-image: url('../../assets//background//sun.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-left: 20px;
+}
+.BackButton {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 70%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-out;
+}
+.BackButton:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.Form{
+    margin-top: 20px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 50px;
+    padding-top: 20px;
+}
+.Form h2 {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 30px;
+    font-weight: 900;
+}
+.LockIcon{
+    padding: 5px;
+    background-color: rgb(184, 0, 0);
+    border-radius: 50%;
+    width: 30px ;
+    padding: 14px;
+    margin-left: 40% ;
+    margin-bottom: 20px ;
+}
+.Form form {
+    display: flex;
+    flex-flow: column;
+}
+.Form form input {
+    margin-bottom: 40px;
+    height: 50px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: solid 2px rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.Form form input:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    border:solid 2px rgba(184, 0, 0, 0.6);
+}
+.Form button{
+    background-color:rgb(184, 0, 0) ;
+    padding:  5px 0 5px 0;
+    border: solid 1px rgb(184, 0, 0);
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.Form button:hover{
+    cursor: pointer;
+    background-color: rgb(130, 0, 0);
+}
+.SignUp{
+    color:#1976d2;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: inherit;
+}
+.SignUp:hover{
+    text-decoration: underline;
+}
+.Error {
+    color: rgb(255, 0, 0);
+    margin-top: -17px;
+    margin-right: 40%;
+    padding-left: 3px;
+    text-align: left;
+}

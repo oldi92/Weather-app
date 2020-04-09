@@ -1,0 +1,68 @@
+.Forecast {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 85%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    transition: 5s ease-out;
+    padding-left: 20px;
+}
+.Title {
+    display: flex;
+    margin-top: 50px;
+}
+.Forecast ul {
+    list-style: none;
+    padding-left: 13px;
+}
+
+.Parent{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid 2px rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 45px;
+    text-align: center;
+    transition: 0.3s ease-out;
+}
+.Parent:hover{
+    cursor: pointer;  
+    border: solid 2px rgba(0, 0, 0, 0.7);
+}
+.Parent:hover .first{
+    cursor: pointer;  
+    background-color:  rgba(0, 0, 0, 0.7);
+}
+.Parent:hover .second{
+    cursor: pointer;  
+    background-color:  rgba(0, 0, 0, 0.7);
+}
+.first {
+    margin-left: -3px;
+    margin-top: 55%;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 125%;
+    height: 6px;
+    transition: 0.3s ease-out;
+}
+.firstAlone{
+    margin-left: -3px;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 125%;
+    height: 6px;
+    transition: 0.3s ease-out;
+}
+.second{
+    margin-top: -80%;
+    margin-left: 9px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 6px;
+    height: 93%;
+    transition: 0.1s ease-out;
+}
+
+.remove{
+    display: none;
+}

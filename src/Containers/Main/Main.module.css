@@ -1,5 +1,5 @@
 .Main {
-    padding-left: 25px;
+    padding-left: 22px;
     text-align: left;
     padding-top: 15px;
     height: 100%;
@@ -12,8 +12,40 @@
     background-attachment: fixed;
     color: white;
     overflow-y: auto;
-    overflow-x: auto;
+    overflow-x: hidden;
     transition: 0.3s ease-out;
+}
+.Title{
+    margin-right: 50px;
+    text-align: center;
+}
+.Cogs {
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left:77%;
+    top: 25px;
+    transition: all 0.2s ease-out;
+}
+.Cogs:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+}
+.LogOut{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.6);
+    right:78%;
+    margin-top: 10px;
+    transition: all 0.2s ease-out;
+}
+.LogOut:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+}
+.NavLink {
+    color: inherit;
+    width: 40px;
 }
 .Main h1 {
     height: 64px;
