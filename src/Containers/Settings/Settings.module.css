@@ -1,68 +1,57 @@
-.Settings{
-    background-image: url('../../assets//background//sun.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    text-align: center;
-    padding: 0 20px 0 20px;
+.Settings {
+  background-image: url("../../assets//background/night_mountain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  text-align: center;
+  overflow-y: auto;
+  padding-left: 1.5rem;
 }
 .BackButton {
-    padding-left: 5px;
-    padding-right: 5px;
-    color: rgba(0, 0, 0, 0.7);
-    margin-left: 70%;
-    margin-top: 40px;
-    transition: all 0.3s ease-out;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 70%;
+  margin-top: 40px;
+  transition: all 0.3s ease-out;
 }
 .BackButton:hover {
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.7);
 }
-.CelciusButton{
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    width: 60%;
-    margin: auto;
-    margin-top: 40px;
-    height: 60px;
-    padding: 5px 5px 0px 5px;
-    margin-bottom: 35px;
+.CelciusButton {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+  height: 60px;
+  padding: 5px 5px 0px 5px;
+  margin-bottom: 35px;
 }
 .CelciusButton button {
-    background-color: rgba(0, 0, 0, 0.8);
-    border:  rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-    width: 55%;
-    height: 55px;
-    padding: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  width: 55%;
+  height: 55px;
+  padding: 0;
 }
-.CelciusButton button h2{
-    color: rgba(255, 255, 255, 0.7);
+.CelciusButton button h2 {
+  color: rgba(255, 255, 255, 0.7);
 }
 .CelciusButton button:hover {
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.7);
 }
-.CelciusButton button:hover h2{
-    color: rgba(0, 0, 0, 0.7);
+.CelciusButton button:hover h2 {
+  color: rgba(0, 0, 0, 0.7);
 }
-
-
-@media screen and (max-width: 413px ) {
-    .Settings{
-        height: 120vh;
-    }    
+@media (min-width: 500px) {
+  .Settings {
+    padding-left: 8%;
+  }
 }
-@media screen and (min-width: 527px ) {
-    .Settings{
-        padding-left: 8%;
-    }    
+@media (min-width: 1000px) {
 }
-
-@media screen and (min-width: 700px ) {
-    .Settings{
-        background-image: url('../../assets//background//sun1.jpg');
-    }
-}
-

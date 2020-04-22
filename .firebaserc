@@ -1,1 +1,6 @@
-{}
+{
+  "projects": {
+    "default": "weather-app1-1bb76",
+    "staging": "weather-app1-1bb76"
+  }
+}

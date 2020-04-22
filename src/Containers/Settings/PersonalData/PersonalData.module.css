@@ -1,164 +1,90 @@
-.PersonalInfo{
-    width: 90%;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-    padding-bottom: 20px;
+.PersonalInfo {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
 }
 .PersonalInfo button {
-    background-color: rgba(0, 0, 204, 0.6);
-    padding: 5px;
-    color: white;
-    border: none;
-    background-color: none;
-    font-size: 15px;
-    font-weight: 600;
-    margin-left: 50%;
-    margin-top: 34px;
+  background-color: rgba(0, 0, 204, 0.6);
+  padding: 0.3rem;
+  color: white;
+  border: none;
+  background-color: none;
+  font-size: 1rem;
+  font-weight: 600;
+  /* margin-left: 50%; */
+  /* margin-top: 34px; */
+  float: right;
+  margin: 1rem 1rem 0 1rem;
 }
 .PersonalInfo button:hover {
-    cursor: pointer;
-    background-color: rgba(0, 0, 204, 0.8);
-    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.45);
+  cursor: pointer;
+  background-color: rgba(0, 0, 204, 0.8);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
 }
 .PersonalInfo ul {
-    list-style: none;
-    width: 80%;
-    display: flex;
-    flex-flow: column;
-    text-align: left;
-}
-.PersonalInfo ul li{
-    height: 86px;
-    padding-top: 10px;
-}
-.PersonalInfo ul h3 {
-    font-size: 15px;
-    font-weight: 300;
+  list-style: none;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  text-align: left;
 }
 
-.PersonalData{
-    width: 90%;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
+.PersonalData {
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
 }
-.PersonalData form{
-    display: flex;
-    flex-flow: column;
-    padding: 30px;
-    text-align: left;
+.PersonalData form {
+  display: flex;
+  flex-flow: column;
+  padding: 2rem;
+  text-align: left;
 }
 .PersonalData button {
-    background-color: rgba(0, 0, 204, 0.6);
-    padding: 5px;
-    color: white;
-    border: none;
-    background-color: none;
-    font-size: 15px;
-    font-weight: 600;
-    margin-left: 50%;
-    margin-top: 14px;
+  background-color: rgba(0, 0, 204, 0.6);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 0.3rem;
+  font-weight: 600;
+  width: 9rem;
+  margin-left: 58%;
+  margin-top: -1rem;
 }
-.PersonalData button:hover{
-    cursor: pointer;
-    background-color: rgba(0, 0, 204, 0.8);
-    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.45);
+.PersonalData button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 204, 0.8);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
 }
-.PersonalData form input{
-    background-color: rgba(255, 255, 255, 0);
-    width: 95%;
-    height: 40px;
-    font-size: 20px;
-    font-weight: 500;
-    border: none;
-    border-bottom: solid 1px rgba(0, 0, 0, 0.6);
-    margin-bottom: 45px;
+.PersonalData form label {
+  padding-bottom: 2rem;
 }
-.PersonalData form input:hover{
-    border-bottom: solid 2px rgba(0, 0, 204, 0.5);
-    box-shadow: 0px 8px 8px -6px rgba(0,0,0,0.4);
+.PersonalData form input {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
 }
-.PersonalData form input:focus{
-    border: none;
-    border-bottom: solid 2px rgba(0, 0, 204, 0.5);
-    box-shadow: 0px 8px 8px -6px rgba(0,0,0,0.4);
+.PersonalData form input:hover {
+  border-bottom: solid 2px rgba(0, 0, 204, 0.5);
+  box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.4);
 }
-.PersonalData form label{
-    font-size: 15px;
+.PersonalData form input:focus {
+  border: none;
+  border-bottom: solid 2px rgba(0, 0, 204, 0.5);
+  box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.4);
 }
 
-@media screen and (min-width: 527px ) {
-    .PersonalInfo{
-        width:75%;
-        font-size: 20px;
-        padding: 0 25px 0 25px;
-    }
-    .PersonalInfo button{
-        font-size: 20px;
-    }
-    .PersonalInfo ul li h3 {
-        font-size: 23px;
-    }
-    .PersonalInfo ul li h2 {
-        margin-top: -15px;
-    }
-    .PersonalInfo ul li{
-        margin-left: 8%;
-        padding-bottom: 25px;
-    }
-    .PersonalData{
-        width: 75%;
-        padding: 30px;
-    }
-    .PersonalData form label {
-        font-size: 20px;
-    }
-    .PersonalData form input {
-        font-size: 25px;
-    }
-    .PersonalData form button {
-        font-size: 20px;
-    }
-}
-
-@media screen and (min-width: 700px ) {
-    .Settings{
-        background-image: url('../../../assets/background/sun1.jpg');
-    }
-}
-
-@media screen and (min-width: 1400px ) {
-    .PersonalInfo{
-        width:80%;
-        font-size: 20px;
-        padding: 0;
-        margin-top: 0;
-    }
-    .PersonalInfo button{
-        font-size: 30px;
-    }
-    .PersonalInfo ul li h3 {
-        font-size: 30px;
-    }
-    .PersonalInfo ul li h2 {
-        margin-top: -15px;
-        font-size: 40px;
-    }
-    .PersonalInfo ul li{
-        margin-left: 13%;
-        padding-bottom: 50px;
-    }
-    .PersonalData{
-        margin-left: 5%;
-        width: 65%;
-        padding: 3% 5% 3% 5%;
-    }
-    .PersonalData form label {
-        font-size: 20px;
-    }
-    .PersonalData form input {
-        font-size: 25px;
-    }
-    .PersonalData form button {
-        font-size: 20px;
-    }
+@media (min-width: 550px) {
+  .PersonalInfo {
+    width: 70%;
+    margin-left: 3rem;
+  }
+  .PersonalData {
+    width: 70%;
+    margin-left: 3rem;
+  }
+  .PersonalData form input {
+    margin: auto;
+  }
 }

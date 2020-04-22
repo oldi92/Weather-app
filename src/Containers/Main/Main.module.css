@@ -1,92 +1,92 @@
 .Main {
-    padding-left: 22px;
-    text-align: left;
-    padding-top: 15px;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background-image: url('../../assets//background//sun.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
-    overflow-y: auto;
-    overflow-x: hidden;
-    transition: 0.3s ease-out;
+  position: relative;
+  padding-left: 22px;
+  text-align: left;
+  padding-top: 15px;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-image: url("../../assets//background/night_mountain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: 0.3s ease-out;
 }
-.Title{
-    margin-right: 50px;
-    text-align: center;
+.Title {
+  margin-right: 50px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #140905;
 }
 .Cogs {
-    color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    left:77%;
-    top: 25px;
-    transition: all 0.2s ease-out;
+  color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 77%;
+  top: 25px;
+  transition: all 0.2s ease-out;
 }
-.Cogs:hover{
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
+.Cogs:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
 }
-.LogOut{
-    position: absolute;
-    color: rgba(0, 0, 0, 0.6);
-    right:78%;
-    margin-top: 10px;
-    transition: all 0.2s ease-out;
+.LogOut {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.6);
+  right: 78%;
+  margin-top: 10px;
+  transition: all 0.2s ease-out;
 }
-.LogOut:hover{
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
+.LogOut:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
 }
 .NavLink {
-    color: inherit;
-    width: 40px;
+  color: inherit;
+  width: 40px;
 }
 .Main h1 {
-    height: 64px;
-    font-size: 28px;
-    text-transform: uppercase;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.9);
-    margin: 0px;
-    padding: 20px 0px;
-    transition: 0.3s ease-out;
+  height: 64px;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0px;
+  padding: 20px 0px;
+  transition: 0.3s ease-out;
 }
 
-@media screen and (max-width: 413px ) {
-    .Title{
-        margin-right: 55px;
-    }
+@media screen and (max-width: 440px) {
+  .Title {
+    margin-right: 55px;
+  }
 }
 
-@media screen and (min-width: 527px ) {
-    .Title{
-        margin-right: 55px;
-        font-size: 30px;
-    }
+@media screen and (min-width: 527px) {
+  .Title {
+    margin-right: 55px;
+    font-size: 30px;
+  }
 }
 
-@media screen and (min-width: 700px ) {
-    .Main{
-        background-image: url('../../assets//background//sun1.jpg');
-    }
+@media screen and (min-width: 700px) {
+  .Main {
+    background-image: url("../../assets//background//sun1.jpg");
+  }
 }
-@media screen and (min-width: 1000px ) {
-    .Main{
-        padding-left: 5%;
-    }
+@media screen and (min-width: 1000px) {
+  .Main {
+    padding-left: 5%;
+  }
 }
-@media screen and (min-width: 1440px ) {
-    .Title{
-        font-size: 50px;
-        margin-right: 61%;
-        margin-bottom: 90px;
-        margin-top: 8%;
-    }
-
+@media screen and (min-width: 1440px) {
+  .Title {
+    font-size: 50px;
+    margin-right: 61%;
+    margin-bottom: 90px;
+    margin-top: 8%;
+  }
 }

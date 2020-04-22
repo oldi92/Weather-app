@@ -1,146 +1,122 @@
-.Settings{
-    background-image: url('../../assets//background//sun.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    padding-left: 20px;
+.Settings {
+  background-image: url("../../assets//background/night_mountain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  padding-left: 1.5rem;
 }
 .BackButton {
-    padding-left: 5px;
-    padding-right: 5px;
-    color: rgba(0, 0, 0, 0.6);
-    margin-left: 70%;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    transition: all 0.3s ease-out;
+  position: relative;
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-left: 68%;
+  transition: all 0.3s ease-out;
+}
+.BackButton a {
+  color: inherit;
 }
 .BackButton:hover {
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.7);
 }
 
-.Form{
-    margin-top: 20px;
-    width: 70%;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 20px;
-    padding: 50px;
-    padding-top: 20px;
+.Form {
+  margin-top: 15%;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 3rem;
 }
 .Form h2 {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 30px;
-    font-weight: 900;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 900;
+  margin-bottom: 2.5rem;
 }
-.LockIcon{
-    padding: 5px;
-    background-color: rgb(0, 97, 0);
-    border-radius: 50%;
-    width: 30px ;
-    padding: 14px;
-    margin-left: 40% ;
-    margin-bottom: 20px ;
+.LockIcon {
+  text-align: center;
+}
+.LockIconDiv {
+  background-color: rgb(0, 158, 0);
+  margin: auto;
+  width: 3rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  padding: 0.5rem;
 }
 .Form form {
-    display: flex;
-    flex-flow: column;
+  display: flex;
+  flex-flow: column;
 }
 .Form form input {
-    margin-bottom: 40px;
-    height: 50px;
-    font-size: 16px;
-    background-color: rgba(255, 255, 255, 0.6);
-    border: solid 2px rgba(255, 255, 255, 0.7);
-    border-radius: 10px;
-    padding-left: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: solid 2px rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  height: 2.5rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
 }
-.Form form input:hover{
-    background-color: rgba(255, 255, 255, 0.3);
-    border:solid 2px rgba(0, 97, 0, 0.6);
+.Form form input:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: solid 2px rgb(0, 158, 0);
 }
-.Form button{
-    background-color:rgb(0, 97, 0) ;
-    padding:  5px 0 5px 0;
-    border: solid 1px rgb(0, 97, 0);
-    border-radius: 4px;
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
+.Form button {
+  background-color: rgb(0, 158, 0);
+  border: solid 1px rgb(0, 158, 0);
+  border-radius: 4px;
+  font-weight: 500;
+  padding: 0.6rem;
+  font-size: 1rem;
+  color: white;
 }
-.Form button:hover{
-    cursor: pointer;
-    background-color: rgb(0, 67, 0);
+.Form button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 158, 0);
 }
-.SignUp{
-    color:#1976d2;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: inherit;
+.SignUp {
+  color: #1976d2;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: inherit;
 }
-.SignUp:hover{
-    text-decoration: underline;
+.SignUp:hover {
+  text-decoration: underline;
 }
 .Error {
-    color: rgb(255, 0, 0);
-    margin-top: -17px;
-    margin-right: 40%;
-    padding-left: 3px;
-    text-align: left;
-    width: 100%;
+  color: rgb(255, 0, 0);
+  /* margin-top: -17px; */
+  margin-top: -1rem;
+  margin-left: 1rem;
+  text-align: left;
 }
 
-@media screen and (max-width: 413px ) {
-    .Form  {
-        width: 93%;
-        padding: 0;
-        padding-top: 15px;
-    }
-    .Form form {
-        width: 90%;
-        padding: 15px;
-    }
+@media (min-width: 500px) {
+  .Settings {
+    padding-left: 13%;
+  }
 }
-
-@media screen and (min-width: 527px ) {
-    .Settings{
-        padding-left: 8%;
-    }
-    .Form  {
-        width: 75%;
-        padding: 50px;
-
-    }
-    .Form form {
-        width: 85%;
-        padding: 15px;
-    }
-    .Form form input {
-        width: 100%;
-        font-size: 24px;
-    }
-    .Form button {
-        font-size: 25px;
-    }
+@media (min-width: 1000px) {
+  .Form {
+    font-size: 1.5rem;
+  }
+  .Form form input {
+    font-size: 1.5rem;
+    height: 3.5rem;
+  }
+  .Form button {
+    font-size: 1.5rem;
+  }
+  .SignUp {
+    font-size: 1.2rem;
+  }
 }
-
-@media screen and (min-width: 700px ) {
-    .Settings{
-        background-image: url('../../assets//background//sun1.jpg');
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    .Settings{
-        padding-left: 20%;
-    }
-    .Form  {
-        margin-top: 15%;
-        width: 75%;
-        padding: 60px;
-    }
-    .Form h2{
-        margin-left: -13%;
-    }
+@media (min-width: 1000px) {
+  .Settings {
+    padding-left: 23%;
+  }
+  .Form {
+    width: 60%;
+    margin-top: 0;
+  }
 }
